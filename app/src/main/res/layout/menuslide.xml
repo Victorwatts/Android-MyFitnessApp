@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/btnStoreInfo"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="StoreInfo"
+            android:text="user physiological information"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnGoals"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="Goals"
+            android:text="set target goals"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnDailyChange"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="DailyChange"
+            android:text="daily changes"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnMeal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="MealRecord"
+            android:text="meal recordings"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="Statistics"
+            android:text="user statistics"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="Profile"
+            android:text="profile settings"
+            android:textColor="#fff" />
+    </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>

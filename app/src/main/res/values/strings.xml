@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">MyFitnessApp</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="Login">Login</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_nav_draw">NavDrawActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="Register">Register</string>
+    <string name="user_physiological_information">User \nPhysiological \nInformation</string>
+    <string name="set_target_goals">Set Target \nGoals</string>
+    <string name="daily_changes">Daily \nChanges</string>
+    <string name="meal_recordings">Meal \nRecordings</string>
+    <string name="user_statistics">User \nStatistics</string>
+    <string name="profile_settings">Profile \nSettings</string>
+    <string name="enter_firstname">Enter First name</string>
+    <string name="enter_Surname">Enter Surname</string>
+    <string name="verify">VERIFY</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_gender">Enter Gender</string>
+    <string name="WeightGaol">Weight Goal</string>
+    <string name="caloriegoal">Calorie Intake</string>
+    <string name="DailySteps">Daily Steps</string>
+    <string name="TodaysWeight">Todays Weight</string>
+    <string name="dash">-</string>
+    <string name="status"><u>Status</u></string>
+    <string name="changes"><u>Changes</u></string>
+    <string name="height"><u>Height:</u></string>
+    <string name="weight"><u>Weight:</u></string>
+    <string name="age"><u>Age:</u></string>
+    <string name="gender"><u>Gender:</u></string>
+    <string name="body_mass_index"><u>Body Mass Index</u></string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="change_username">Change Username</string>
+    <string name="change_name">Change Name</string>
+    <string name="change_surname">Change Surname</string>
+    <string name="menu">Menu</string>
+</resources>

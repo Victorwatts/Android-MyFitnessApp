@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/t3"
+    android:id="@+id/lvparent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp">
+
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="80dp"
+                android:layout_height="34dp"
+                android:background="@drawable/mybtn"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:onClick="logout"
+                android:text="Log out"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ImgProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"
+            tools:layout_editor_absoluteY="168dp"
+            tools:layout_editor_absoluteX="168dp"
+            app:civ_border_color="#028FFF"
+            app:civ_border_width="2dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btnout"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnSetPImg"
+                android:layout_width="243dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/mybtn"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="EDIT PROFILE PICTURE"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:onClick="SetProfileImg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/biostats"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <EditText
+                android:id="@+id/edtChangeUserName"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/myedittextbg"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/change_username"
+                android:padding="5dp"
+                android:textColor="#2d3436" />
+
+            <Button
+                android:id="@+id/btnChangeUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/mybtn"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="SET"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/biostats"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <EditText
+                android:id="@+id/edtChangeName"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/myedittextbg"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/change_name"
+                android:padding="5dp"
+                android:textColor="#2d3436" />
+
+            <Button
+                android:id="@+id/btnChangeName"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/mybtn"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="SET"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/biostats"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <EditText
+                android:id="@+id/edtChangeSurname"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/myedittextbg"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/change_surname"
+                android:padding="5dp"
+                android:textColor="#2d3436" />
+
+            <Button
+                android:id="@+id/btnChangeSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/mybtn"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="SET"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="288dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btnout"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnRstPws"
+            android:layout_width="243dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="ResetPw"
+            android:text="RESET PASSWORD"
+            android:textSize="20dp"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="System of measurement:"
+                android:textColor="#000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/biostats"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/txtImperial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Imperial System"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"/>
+            <Switch
+                android:id="@+id/switchImperial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:onClick="SetSystem"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

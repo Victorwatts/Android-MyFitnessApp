@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/t3"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp">
+
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="80dp"
+            android:layout_height="34dp"
+            android:background="@drawable/mybtn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="logout"
+            android:text="Log out"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ImgProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/user"
+            tools:layout_editor_absoluteY="168dp"
+            tools:layout_editor_absoluteX="168dp"
+            app:civ_border_color="#028FFF"
+            app:civ_border_width="2dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Calorie Statistics"
+        android:textColor="#b71540"
+        android:textSize="25sp">
+    </TextView>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Daily Steps Statistics"
+        android:textColor="#b71540"
+        android:textSize="25sp">
+    </TextView>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Weight Statistics"
+        android:textColor="#b71540"
+        android:textSize="25sp">
+    </TextView>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
